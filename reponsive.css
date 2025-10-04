@@ -1,0 +1,315 @@
+/* (min-width:961px) and  pehli media query */
+
+
+
+@media screen and (min-width:961px)  and   (max-width:1425px) {
+    .navbar{
+        padding:19px 80px;
+    }
+    .content div button{
+        width: 160.25px;
+        font-size: 1.2rem;
+    }
+    .content div h1{
+        font-size: 2.7rem;
+    }
+    .content div .p2{
+        font-size: 14px;
+    }
+    .content div .p1{
+        font-size: 16px;
+        margin: 0px 0px 19px 0px;
+    }
+    .content div input{
+        padding: 16px 0.8rem 0rem;
+    }
+    .content div{
+        width: 548px;
+    }
+    .box img{
+        height: 69px;
+        width: 69px;
+    }
+    
+    .boxes_4{
+        gap: 14px;
+        flex-wrap: wrap;
+    }
+    .box{
+        padding: 24px 26px 128px;
+        width: 41.9%;
+    }
+    .movie img{
+        width: 146px;
+        height: 196px;
+    }
+    .less_than{
+        margin-right: 11px;
+    }
+    .greater_than{
+        margin-left: 11px;
+    }
+    .movie p{
+        font-size: 5rem;
+    }
+    .part{
+        font-size: 27px;
+    }
+    .boxes_4 .box h2{
+        font-size: 21px;
+    }
+    .email2_box button{
+        width: 160.25px;
+        font-size: 1.2rem;
+    }
+    .email2_box input{
+        width: 29.5rem;
+    }
+    .ul4{
+        display: none;
+    }
+    .footer .footer_2 ul {
+    width: 27%;
+    }
+}
+
+
+@media screen and (max-width:1648px){
+    .bottom{
+        padding: 0rem 7rem;
+    }
+}
+
+
+@media screen and  (min-width:600px) and (max-width:960px){
+    .bottom{
+        padding: 0rem 2rem;
+    }
+    .box{
+        padding: 24px 26px 108px;
+        width: 100%;
+    }
+    .email2_box button{
+        width: 160.25px;
+        font-size: 1rem;
+    }
+    .box img{
+        height: 65px;
+        width: 65px;
+    }
+    .boxes_4{
+        flex-wrap: wrap;
+    }
+    .content div h1 {
+        font-size: 2.3rem;
+    }
+    .content div input {
+        padding: 16px 0.6rem 0rem;
+        width: 284px;
+    }
+    .content div {
+        width: 485px;
+    }
+    .content div .input label{
+        left: 26px;
+    }
+    .content div button{
+        width: 160.25px;
+        font-size: 1.2rem;
+    }
+    .content div .p2{
+        font-size: 14px;
+    }
+    .content div .p1{
+        font-size: 16px;
+        margin: 0px 0px 9px 0px;
+    }
+    .navbar{
+        padding: 19px 32px;
+    }
+    .navbar img{
+        width: 89px;
+        height: 24px;
+    }
+    .movie img {
+        width: 122px;
+        height: 156px;
+    }
+        .movie p {
+        font-size: 4.5rem;
+    }
+    .part {
+        font-size: 23px;
+    }
+    .boxes_4 .box p {
+        font-size: 14px;
+    }
+    .boxes_4 .box h2{
+        font-size: 19px;
+    }
+    .question i {
+    font-size: 46px;
+    }
+    .question{
+        font-size: 20px;
+    }
+    .footer{
+        gap: 36px;
+    }
+    .ul3{
+        display: none;
+    }
+        .footer .footer_2 ul {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+  /* navbar */
+  .boxes_4 .box h2{
+    font-size: 17px;
+  }
+  .navbar {
+    padding: 12px 16px;
+  }
+  .navbar img {
+    width: 80px;
+    height: auto;
+  }
+  .navbar button {
+    width: auto;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+  .content div button{
+        width: 160.25px;
+        font-size: 1.2rem;
+    }
+
+  /* hero section */
+  .content div {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .content div h1 {
+    font-size: 1.8rem;
+  }
+  .content div .p1,
+  .content div .p2 {
+    font-size: 14px;
+  }
+  .content div input {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  /* trending movies */
+  .bottom {
+    padding: 0 1rem;
+  }
+  .movies {
+    overflow-x: auto;
+    gap: 8px;
+  }
+  .movie {
+    padding: 10px;
+  }
+    .movie img {
+        width: 112px;
+        height: 156.8px;
+    }
+
+  .movie p {
+        font-size: 3.9rem;
+        bottom: 10px;
+  }
+
+  /* boxes section */
+  .boxes_4 {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .box {
+    width: 90%;
+    padding: 16px 16px 85px;
+  }
+
+  /* FAQ */
+  .question {
+    font-size: 18px;
+
+  }
+  .question i {
+    font-size: 28px;
+  }
+
+  /* email section */
+  .email2_box {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .email2_box input {
+    width: 90%;
+    margin-right: 0;
+  }
+  .email2_box button{
+        width: 160.25px;
+        font-size: 1.2rem;
+    }
+
+  /* footer */
+  .footer .footer_2 {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer .footer_2 ul {
+    width: 100%;
+  }
+  .footer .footer_3 {
+    margin: 0 auto;
+  }
+  .footer {
+    padding: 0 1rem;
+  }
+  .part{
+    font-size: 20px;
+  }
+  .boxes_4 .box p{
+    font-size: 12px
+  }
+  .box img{
+    height: 61px;
+    width: 61px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
