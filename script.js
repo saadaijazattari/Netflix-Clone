@@ -44,14 +44,4 @@ less_than.addEventListener("click",()=>{
     movie_box.scrollBy({ left: -1350, behavior: "smooth" });
 })
 
-// let greater_than = document.querySelector(".greater_than");
-// let less_than = document.querySelector(".less_than");
-// let movies = document.querySelector(".movies"); 
 
-// greater_than.addEventListener("click", () => {
-//   movies.scrollBy({ left: 350, behavior: "smooth" });
-// });
-
-// less_than.addEventListener("click", () => {
-//   movies.scrollBy({ left: -350, behavior: "smooth" });
-// });

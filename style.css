@@ -345,6 +345,10 @@ body{
       left: 14px;
       font-size: 12px;
     }
+    .movies {
+    overflow-x: hidden;
+}
+
 
 .content div .input{
   position: relative;
